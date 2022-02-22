@@ -1,0 +1,265 @@
+body {
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.50rem;
+  font-weight: normal;
+  color: black;
+}
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-style: normal;
+  font-size: 5rem;
+  color: #139487;
+}
+
+h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: normal;
+  font-size: 3.25rem;
+  font-stretch: extra-expanded;
+  color: #139487;
+}
+
+h3 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.75rem;
+  color: #139487;
+}
+
+hr {
+  color: #4C4C6D;
+  border-style: none;
+  border-top-style: dashed;
+  border-color: grey;
+  border-width: 5px;
+  width: 3%;
+}
+li {
+  text-align: left;
+}
+
+.name-underline {
+  border-style: none;
+  border-top-style: solid;
+  border-color: #139487;
+  border-width: 2px;
+  width: 25%;
+}
+
+p {
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+.profile-backgroung {
+  background-image: url("images/dotpaint.jpg");
+  background-size: cover;
+}
+
+.programmer {
+  text-decoration: underline;
+}
+
+.top-container {
+  background-color: #FFF1BD;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.profile-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #FEFBF3;
+}
+
+.hello-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #FFF1BD;
+}
+
+.hello-container-r {
+  text-align: left;
+  align-self: auto;
+  display: inline;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #FFF1BD;
+}
+
+.experience-div {
+  background-color: #FFF1BD;
+}
+
+.skill-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #FEFBF3;
+}
+
+.language-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #FFF1BD;
+}
+
+.projects {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #FEFBF3;
+}
+
+.hobbie-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #FFF1BD;
+}
+
+.contact-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #FEFBF3;
+}
+
+.bottom-container {
+  background-color: #86C6F4;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/*
+.middle-container {
+  background-color: #FEFBF3;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+*/
+
+.skill-row {
+  margin: 100px 0 100px 0;
+}
+
+.experience-table {
+  text-align: left;
+  align-self: auto;
+  display: inline;
+}
+
+.language-table {
+  text-align: left;
+  align-self: auto;
+  display: inline;
+}
+
+.skill-table-l {
+  text-align: left;
+  align-self: auto;
+  display: inline;
+}
+
+.skill-table-r {
+  text-align: left;
+  align-self: auto;
+  position: relative;
+  display: inline;
+}
+
+.About-div {
+  position: relative;
+  text-align: left;
+  align-self: auto;
+  display: inline;
+}
+
+.About-table {
+  position: relative;
+  margin-left: 0;
+  text-align: left;
+  align-self: auto;
+  display: inline;
+}
+
+.detail-table {
+  margin-left: 150px;
+  text-align: left;
+  align-self: auto;
+  position: relative;
+  display: inline;
+}
+
+.image-table {
+  margin-right: 0;
+  margin-left: 0;
+  position: absolute;
+  align-self: auto;
+  display: inline;
+}
+
+.profile-img {
+  /*margin-top: 100px;*/
+  background-color: #FFF1BD;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+.computer-img {
+  background-color: #E8F6EF;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+.hobbie-img {
+  /*background-color: #E8F6EF;*/
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.exp-img {
+  /*background-color: #E8F6EF;*/
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  padding: 50px;
+  margin: 0 50 0 50;
+}
+
+.vertical-menu {
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 40%;
+  left: 50px;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu :hover {
+  background-color: #ccc;
+}
+
+.vertical-menu :active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.detail-labels {
+  font-weight: bolder;
+}
+
+.detail-answers {
+  color: #139487;
+  font-weight: bolder;
+}
